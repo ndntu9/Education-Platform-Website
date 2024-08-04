@@ -76,3 +76,168 @@ a {
   font-size: 1.6rem;
   border-radius: 24.5px;
 }
+
+#header {
+  padding-top: 56px;
+  padding-bottom: 65px;
+  background-color: #fffcf4;
+}
+
+#header .main {
+  display: flex;
+  gap: 230px;
+}
+
+#header .media {
+  position: relative;
+}
+
+#header .media .thumb {
+  width: 470px;
+  height: 685px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#header .about-card {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 393px;
+  left: 300px;
+}
+
+#header .about-card .body {
+  padding: 24px;
+}
+
+#header .about-card .item {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+#header .about-card .item:last-child {
+  margin-bottom: 0;
+}
+
+#header .about-card .icon {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--icon-bg-color);
+  justify-content: center;
+  align-items: center;
+}
+
+#header .about-card .desc {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+#header .about-card .title {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+#header .content .title {
+  margin-top: 64px;
+  color: #171100;
+  font-family: "Sen";
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+}
+
+#header .content .desc {
+  margin-top: 22px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#header .header-cta {
+  margin-top: 38px;
+  display: flex;
+}
+
+.header-cta .header-btn {
+  padding: 25px 46px;
+  border-radius: 32px;
+  font-size: 18px;
+}
+
+.header-cta .link {
+  margin-left: 28px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-cta .link::after {
+  content: "Watch Video";
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  transition: padding-left 300ms;
+}
+
+.header-cta .link .icon {
+  opacity: 0;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.07);
+  transition: opacity 300ms;
+}
+
+.header-cta .link:hover::after {
+  padding-left: 54px;
+}
+
+.header-cta .link:hover .icon {
+  opacity: 1;
+}
+
+#header .content .sub-title {
+  margin-top: 48px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#header .content .stat {
+  margin-top: 8px;
+  display: flex;
+  gap: 28px;
+}
+
+#header .content .stat .item {
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+#header .content .stat strong {
+  color: #171100;
+  font-family: "Sen";
+  font-size: 4.4rem;
+  font-weight: 700;
+}
