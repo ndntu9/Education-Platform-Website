@@ -43,6 +43,7 @@ a {
   background-color: #fffcf4;
   position: sticky;
   top: -28px;
+  z-index: 1;
 }
 
 #navigation .main {
@@ -362,4 +363,72 @@ a {
 .list-course .course-btn {
   padding-left: 24px;
   padding-right: 24px;
+}
+
+#testimonial {
+  background-color: #2e2100;
+}
+
+#testimonial .main {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: flex;
+  gap: 241px;
+}
+
+#testimonial .avatar {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#testimonial .name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: "Sen";
+  font-size: 2.4rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+#testimonial .desc {
+  margin-top: 8px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+#testimonial .control {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#testimonial .control-btn {
+  padding: 0;
+  width: 6px;
+  height: 6px;
+  border: none;
+  border-radius: 50%;
+  background-color: #634700;
+  transition: 300ms;
+}
+
+#testimonial .control-btn:hover {
+  cursor: pointer;
+  background-color: #ffb900;
+}
+
+#testimonial .content .desc {
+  margin-left: 30px;
+  width: 740px;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+  white-space: wrap;
 }
