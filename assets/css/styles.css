@@ -432,3 +432,55 @@ a {
   line-height: 40px;
   white-space: wrap;
 }
+
+#feature {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#feature .main {
+  display: flex;
+  gap: 130px;
+}
+
+#feature .media {
+  display: flex;
+}
+
+#feature .thumb {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+#feature .media .lower {
+  margin-top: 34px;
+}
+
+#feature .content .sub-title {
+  margin-top: 58px;
+  color: #171100;
+  font-family: "Sen";
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+}
+
+#feature .content .desc,
+#feature .content .short-desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#feature .feature-btn {
+  margin-top: 32px;
+  font-size: 1.6rem;
+  padding: 17px 38px;
+  border-radius: 26px;
+}
