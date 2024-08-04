@@ -208,7 +208,7 @@ a {
 }
 
 .header-cta .link:hover::after {
-  padding-left: 54px;
+  padding: 25px 0 25px 54px;
 }
 
 .header-cta .link:hover .icon {
@@ -240,4 +240,126 @@ a {
   font-family: "Sen";
   font-size: 4.4rem;
   font-weight: 700;
+}
+
+#course .main {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#course .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#course .row .sub-title {
+  color: #171100;
+  font-family: "Sen";
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+}
+
+#course .row .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+#course .button-wrap {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+#course .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffb900;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: 300ms;
+}
+
+#course .control-btn svg {
+  stroke: #ffb900;
+  transition: 300ms;
+}
+
+#course .control-btn:hover {
+  cursor: pointer;
+  background-color: #ffb900;
+}
+
+#course .control-btn:hover svg {
+  stroke: #fff;
+}
+
+.list-course {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+
+.list-course .item {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+  flex: 1;
+}
+
+.list-course .item .thumb {
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.list-course .info {
+  padding: 16px 22px 22px;
+}
+
+.list-course .heading,
+.list-course .cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-course .title {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.list-course .score {
+  color: #fea31b;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.list-course .desc {
+  margin-top: 6px;
+  margin-bottom: 12px;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.list-course .pricing {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.list-course .course-btn {
+  padding-left: 24px;
+  padding-right: 24px;
 }
