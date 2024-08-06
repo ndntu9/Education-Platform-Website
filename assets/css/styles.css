@@ -654,6 +654,25 @@ a {
   line-height: 26px;
 }
 
+.footer-link .social {
+  margin-top: 18px;
+  display: flex;
+}
+
+.footer-link .social .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: 300ms;
+}
+
+.footer-link .social .icon:hover {
+  background-color: #f7f7f766;
+}
+
 .footer-link .title {
   margin-bottom: 43px;
   color: #fff;
